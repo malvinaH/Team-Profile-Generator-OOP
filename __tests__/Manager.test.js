@@ -14,11 +14,11 @@ describe('Manager Class', () => {
       );
 
       // Assert
-      expect(intern).toEqual({
+      expect(manager).toEqual({
         name: "Max H",
         id: "1234",
         email: "maxh@example.com",
-        github: "https://github.com/maxh"
+        officeNum: "1"
     });
   });
 

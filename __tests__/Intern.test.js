@@ -13,7 +13,7 @@ describe('Intern Class', () => {
         name: "Nidhi M",
         id: "1234",
         email: "nidhim@example.com",
-        github: "https://github.com/nidhim"
+        school: "Columbia"
     });
   });
 

@@ -28,7 +28,7 @@ describe('Engineer Class', () => {
       );
 
       // Assert
-      expect(engineer.getGithub()).toBe('https://github.com/johndoe');
+      expect(engineer.getGithub()).toBe('https://github.com/michaelx');
     });
   });
 
