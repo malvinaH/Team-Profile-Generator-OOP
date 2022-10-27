@@ -27,14 +27,13 @@ const generateTeam = (team) => {
            <ul class="list-group list-group-flush">
             <li class="list-group-item">ID: ${engineer.id}</li>
             <li class="list-group-item">Email: <span id="email"><a href="mailto:${engineer.email}">${engineer.email}</a></span></li>
-            <li class="list-group-item">Github Username: <a target="_blank" href="https://github.com/${engineer.githubUsername}">${engineer.githubUsername}</a></li>
+            <li class="list-group-item">Github Username: <a target="_blank" href="https://github.com/${engineer.github}">${engineer.github}</a></li>
             </ul>
         </div>
         `;
         html.push(engineerHtml);
     }
     const generateIntern = intern => {
-        console.log(intern);
         let internHtml = `
         <div class="card" style="width: 18rem;">
             <div class="card-header">
