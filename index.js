@@ -82,7 +82,7 @@ const promptMenu = () => {
             type: "list",
             name: "menu",
             message: "Please select which option you would like to continue with:",
-            choices: ["Add an engineer.", "Add an intern.", "Finish building my team."]
+            choices: ["add an engineer", "add an intern", "finish building my team"]
         }])
         .then(userChoice => {
             switch (userChoice.menu) {
