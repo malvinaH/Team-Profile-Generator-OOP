@@ -82,7 +82,7 @@ const promptMenu = () => {
             type: "list",
             name: "menu",
             message: "Please select which option you would like to continue with:",
-            choices: ["add an engineer", "add an intern", "finish building my team"]
+            choices: ["Add an engineer.", "Add an intern.", "Finish building my team."]
         }])
         .then(userChoice => {
             switch (userChoice.menu) {
@@ -101,7 +101,7 @@ const promptMenu = () => {
 const promptEngineer = () => {
     console.log(`
 
-// add new engineer
+// Add new engineer.
 
     `);
 
@@ -147,7 +147,7 @@ const promptEngineer = () => {
         },
         {
             type: "input",
-            name: "githubUsername",
+            name: "github",
             message: "Enter your Github username. ",
             validate: github => {
                 if (github) {
@@ -168,7 +168,7 @@ const promptEngineer = () => {
 
 const promptIntern = () => {
     console.log(`
-    // Add a New Intern
+// Add a New Intern.
     `);
 
     return inquirer.prompt([

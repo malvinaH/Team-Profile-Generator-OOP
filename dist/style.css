@@ -1,0 +1,42 @@
+header {
+    color: white;
+    background-color: rgba(246, 35, 35, 0.591);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin: 1 em;
+    padding: .6 em;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1 em;
+    padding: .6 em;
+}
+
+.card {
+    padding: .6 em;
+    margin: 1 em;
+}
+
+.card-header {
+    color: white;
+    background-color: rgba(0, 106, 255, 0.584);
+
+}
+
+.list-group {
+    color: black;
+}
+
+/* MAKE IT ALL ON ONE LINE AND SMALLER */
+.list-group-item {
+    white-space: nowrap;
+    overflow: visible;
+}
+
+#email {
+    color:rgba(0, 0, 255, 0.584);
+}
