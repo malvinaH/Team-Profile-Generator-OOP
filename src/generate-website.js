@@ -51,13 +51,13 @@ const generateTeam = (team) => {
 
     // create a loop for all of the employees
     for (let i = 0; i < team.length; i++) {
-        if (team[i].getRole() === "Manager") {
+        if (team[i].getRole() === "manager") {
             generateManager(team[i]);
         }
-        if (team[i].getRole() === "Engineer") {
+        if (team[i].getRole() === "engineer") {
             generateEngineer(team[i]);
         }
-        if (team[i].getRole() === "Intern") {
+        if (team[i].getRole() === "intern") {
             generateIntern(team[i]);
         }
     }
